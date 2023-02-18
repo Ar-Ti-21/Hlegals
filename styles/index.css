@@ -764,6 +764,8 @@ footer .footer__info .first-info-line {
 }
 footer .footer__info .first-info-line .contacts-Address {
   color: var(--main-color);
+  max-width: 215px;
+  width: 100%;
 }
 footer .footer__info .first-info-line .footer__send-to-map {
   font-weight: 700;
