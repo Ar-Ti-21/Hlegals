@@ -84,7 +84,7 @@ const settingSliderTeam = {
 
 
 
-// script_change-language-page //
+// script_change-language-page-desktop //
 var header = document.getElementById("contacts__cng-lang");
 var btns = header.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
@@ -95,16 +95,27 @@ for (var i = 0; i < btns.length; i++) {
     });
 }
 
-// script_change-language-page //
-// var header = document.getElementById("contacts-mobile__cng-lang");
-// var btns = header.getElementsByClassName("btnMobile");
-// for (var i = 0; i < btns.length; i++) {
-//     btns[i].addEventListener("click", function () {
-//         var current = document.getElementsByClassName("active");
-//         current[0].className = current[0].className.replace(" active", "");
-//         this.className += " active";
-//     });
-// }
+// script_change-language-page-tablet //
+var header = document.getElementById("contacts-mobile__cng-lang-tablet");
+var btns = header.getElementsByClassName("btnt");
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("activer");
+        current[0].className = current[0].className.replace(" activer", "");
+        this.className += " activer";
+    });
+}
+
+// script_change-language-page-mobile //
+var header = document.getElementById("contacts-mobile__cng-lang");
+var btns = header.getElementsByClassName("btn-mobile");
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("activet");
+        current[0].className = current[0].className.replace(" activet", "");
+        this.className += " activet";
+    });
+}
 
 
 // script_nav-links-desktop get active current nav link//
