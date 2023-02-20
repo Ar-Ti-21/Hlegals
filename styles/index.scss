@@ -17,7 +17,7 @@ header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      .contacts-mobile__cng-lang {
+      #contacts-mobile__cng-lang {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -37,7 +37,7 @@ header {
             transition: all 0.2s ease-out;
           }
         }
-        .active a {
+        .activet a {
           background-color: var(--pink-accent);
           border-radius: 8px;
           transition: all 0.2s ease-out;
@@ -1096,6 +1096,7 @@ footer {
     padding: 179px 60px 0 60px;
 
     &::after {
+      height: 200px;
       bottom: 0;
     }
 

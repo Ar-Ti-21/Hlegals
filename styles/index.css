@@ -16,13 +16,13 @@ header .header-mobile .header__contacts-mobile {
   justify-content: space-between;
   align-items: center;
 }
-header .header-mobile .header__contacts-mobile .contacts-mobile__cng-lang {
+header .header-mobile .header__contacts-mobile #contacts-mobile__cng-lang {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-header .header-mobile .header__contacts-mobile .contacts-mobile__cng-lang .btn-mobile a {
+header .header-mobile .header__contacts-mobile #contacts-mobile__cng-lang .btn-mobile a {
   cursor: pointer;
   padding: 5px 6px;
   border-radius: 8px;
@@ -31,13 +31,13 @@ header .header-mobile .header__contacts-mobile .contacts-mobile__cng-lang .btn-m
   letter-spacing: 1px;
   color: var(--gray-text);
 }
-header .header-mobile .header__contacts-mobile .contacts-mobile__cng-lang .btn-mobile a:hover {
+header .header-mobile .header__contacts-mobile #contacts-mobile__cng-lang .btn-mobile a:hover {
   color: var(--gray-text);
   background-color: var(--gray-BgAlt);
   border-radius: 8px;
   transition: all 0.2s ease-out;
 }
-header .header-mobile .header__contacts-mobile .contacts-mobile__cng-lang .active a {
+header .header-mobile .header__contacts-mobile #contacts-mobile__cng-lang .activet a {
   background-color: var(--pink-accent);
   border-radius: 8px;
   transition: all 0.2s ease-out;
@@ -957,6 +957,7 @@ footer .footer__info .third-info-line .contacts-email:hover {
     padding: 179px 60px 0 60px;
   }
   .banner::after {
+    height: 200px;
     bottom: 0;
   }
   .banner .banner__img-back-symbols {
