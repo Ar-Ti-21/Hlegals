@@ -1,3 +1,9 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 @import "./fonts.css";
 :root {
   /*colours*/
@@ -55,12 +61,14 @@ html .contacts-Address {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  -ms-flex-line-pack: center;
   align-content: center;
 }
 html .contacts-phone-number {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
+  -ms-flex-line-pack: center;
   align-content: center;
   letter-spacing: 0.5px;
 }
@@ -68,12 +76,14 @@ html .contacts-email {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
+  -ms-flex-line-pack: center;
   align-content: center;
 }
 html .watermark {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  -ms-flex-line-pack: center;
   align-content: center;
   color: var(--gray-text);
   letter-spacing: 0.25px;
@@ -83,12 +93,16 @@ html .icon-arrow-down-scroll-white {
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 5px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 html .icon-arrow-right-scroll-white {
   border: solid var(--main-white);
   border-width: 0 3px 3px 0;
   padding: 3px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
   margin-left: 4px;
 }
@@ -96,6 +110,8 @@ html .icon-arrow-right-scroll-blue {
   border: solid var(--blue-main);
   border-width: 0 3px 3px 0;
   padding: 3px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
   margin-left: 4px;
 }
@@ -104,6 +120,7 @@ html .dot-separator {
   height: 6px;
   background: #B3B3BA;
   border-radius: 50px;
+  -ms-flex-line-pack: center;
   align-content: center;
 }
 html .border-separator {
@@ -148,6 +165,7 @@ html p {
 }
 html button {
   background: var(--blue-main);
+  -webkit-box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
   box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
   border-radius: 12px;
   font-size: 14px;
@@ -157,13 +175,17 @@ html button {
   width: 100%;
   text-align: center;
   color: var(--main-white);
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 html button:hover {
   background: var(--blue-hover);
+  -webkit-box-shadow: 0 0 30px rgba(36, 163, 255, 0.5);
   box-shadow: 0 0 30px rgba(36, 163, 255, 0.5);
 }
 html button:active {
+  -webkit-box-shadow: none;
   box-shadow: none;
   background: var(--blue-active);
 }
