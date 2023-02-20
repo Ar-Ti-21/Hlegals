@@ -11,7 +11,7 @@
 </head>
 <header>
 	<div class="header-desktop">
-		<a href="../index.html"><img src="../images/header__img-main-logo-service.png" alt="main-logo-mobil-desktop"></a>
+		<a href="../index.html"><img src="../images/header__img-main-logo-service.png" alt="main-logo-service"></a>
 		<div>
 			<div class="header__contacts">
 				<div id="contacts__cng-lang">
@@ -26,7 +26,7 @@
 						<div class="contacts-icon-Facebook-hover">
 							<a href="#">
 								<svg width="24" height="24">
-									<use href="../sprite.svg#icon-Facebook-grey"/>
+									<use href="../sprite.svg#icon-Facebook-white"/>
 								</svg>
 							</a>
 						</div>
@@ -41,25 +41,63 @@
 				</div>
 			</div>
 			<nav id="header__nav-links">
-				<a href="#"><h4 class="link">про нас</h4></a>
+				<a href="./about.html"><h4 class="link">про нас</h4></a>
 				<a href="./services.html"><h4 class="link actives">послуги</h4></a>
-				<a href="#"><h4 class="link">команда</h4></a>
-				<a href="#"><h4 class="link">публікації</h4></a>
-				<a href="#"><h4 class="link">контакти</h4></a>
+				<a href="./team.html"><h4 class="link">команда</h4></a>
+				<a href="./publications.html"><h4 class="link">публікації</h4></a>
+				<a href="./contacts.html"><h4 class="link">контакти</h4></a>
 			</nav>
 		</div>
 	</div>
+	<div class="header-tablet">
+		<div class="header__contacts">
+			<div id="contacts__cng-lang-tablet">
+				<h6 class="btnt activer"><a href="#">УК</a></h6>
+				<h6 class="btnt"><a href="#">РУ</a></h6>
+				<h6 class="btnt"><a href="#">EN</a></h6>
+			</div>
+			<div class="contacts-Address">Одеса, Адміральський пр., 3</div>
+			<div class="contacts-phone-number">+38 (050) 390 15 91</div>
+			<div class="contacts-icon-Facebook">
+				<div class="contacts-icon-Facebook-hover">
+					<div class="contacts-icon-Facebook-hover">
+						<a href="#">
+							<svg width="24" height="24">
+								<use href="../sprite.svg#icon-Facebook-white"/>
+							</svg>
+						</a>
+					</div>
+					<div class="contacts-icon-Facebook-hover">
+						<a href="#">
+							<svg width="24" height="24">
+								<use href="../sprite.svg#icon-Facebook-blue"/>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="../index.html"><img src="../images/header__img-main-logo-service.png" alt="main-logo-service"></a>
+		<nav id="header__nav-links-tablet">
+			<a href="./about.html"><h4 class="link">про нас</h4></a>
+			<a href="./services.html"><h4 class="link">послуги</h4></a>
+			<a href="./team.html"><h4 class="link activex">команда</h4></a>
+			<a href="./publications.html"><h4 class="link">публікації</h4></a>
+			<a href="./contacts.html"><h4 class="link">контакти</h4></a>
+		</nav>
+	</div>
 	<div class="header-mobile">
 		<div class="header__contacts-mobile">
-			<div class="contacts-mobile__cng-lang">
-				<h6 class="btn-mobile active"><a href="#">УК</a></h6>
+			<div id="contacts-mobile__cng-lang">
+				<h6 class="btn-mobile activet"><a href="#">УК</a></h6>
 				<h6 class="btn-mobile"><a href="#">РУ</a></h6>
 				<h6 class="btn-mobile"><a href="#">EN</a></h6>
 			</div>
 			<div class="contacts-phone-number">+38 (050) 390 15 95</div>
 		</div>
 		<nav class="header__nav-links-mobile">
-			<a href="../index.html"><img src="../images/header__img-main-logo-service.png" alt="main-logo-mobile"></a>
+			<a href="../index.html"><img src="../images/header__img-main-logo-service.png"
+			                             alt="main-logo-service-mobile"></a>
 			<input class="m-menu__checkbox" type="checkbox" id="menu" name="menu">
 			<label class="m-menu__toggle" for="menu">
 				<svg width="20" height="20">
@@ -68,7 +106,8 @@
 			</label>
 			<div class="m-menu">
 				<div class="m-menu__open-header">
-					<a href="#"><img src="../images/header__img-long-leg-mobile-nav.png" alt="long-leg-mobile-nav"></a>
+					<a href="../index.html"><img src="../images/header__img-long-leg-mobile-nav.png"
+					                             alt="long-leg-mobile-nav"></a>
 					<label class="m-menu__toggle" for="menu">
 						<svg width="35" height="35">
 							<use href="../sprite.svg#m-menu__toggle(X)"/>
@@ -76,11 +115,11 @@
 					</label>
 				</div>
 				<ul>
-					<li><a href="#"><h4><label>про нас</label></h4></a></li>
+					<li><a href="./about.html"><h4><label>про нас</label></h4></a></li>
 					<li><a href="./services.html"><h4><label>послуги</label></h4></a></li>
-					<li><a href="#"><h4><label>команда</label></h4></a></li>
-					<li><a href="#"><h4><label>публікації</label></h4></a></li>
-					<li><a href="#"><h4><label>контакти</label></h4></a></li>
+					<li><a href="./team.html"><h4><label>команда</label></h4></a></li>
+					<li><a href="./publications.html"><h4><label>публікації</label></h4></a></li>
+					<li><a href="./contacts.html"><h4><label>контакти</label></h4></a></li>
 				</ul>
 			</div>
 		</nav>
@@ -89,26 +128,22 @@
 <body>
 <main>
 	<section class="services">
-		<div class="services__header">
-			<div class="HeroTextGradient">Що ми вміємо робити краще за інших?</div>
-		</div>
-		<div class="services__container">
+		<div class="services__content">
+			<div class="services__title">
+				<div class="HeroTextGradient">Що ми вміємо робити краще за інших?</div>
+			</div>
 			<div class="services__cards">
-				<div class="cards-header">
-					<img src="../images/services__icon-Bag.png" alt="icon-Bag">
-					<h3>IT та електронна комерція</h3>
-				</div>
+				<img src="../images/services__icon-Bag.png" alt="icon-Bag">
+				<h3>IT та електронна комерція</h3>
 				<div class="cards-description">Нескінчений потік договорів, податкові питання, трудові відносини,
 					корпоративні папери — юридична робота відволікає вас від ведення бізнесу. Але роботи не так вже
 					й багато, щоб наймати інхауз-юриста.
 				</div>
 			</div>
 			<div class="services__cards">
-				<div class="cards-header">
-					<img src="../images/services__icon-BackPack.png" alt="icon-Bag">
-					<h3>Комплексний щоденний <br>
-						юридичний супровід</h3>
-				</div>
+				<img src="../images/services__icon-BackPack.png" alt="icon-BagPack">
+				<h3>Комплексний щоденний <br>
+					юридичний супровід</h3>
 				<div class="cards-description">До того ж, з часом робота стане однотипною і нецікавою для
 					штатного
 					юриста. А
@@ -118,20 +153,16 @@
 				</div>
 			</div>
 			<div class="services__cards">
-				<div class="cards-header">
-					<img src="../images/services__icon-Virus.png" alt="icon-Bag">
-					<h3>Структуризація корпоративних відносин</h3>
-				</div>
+				<img src="../images/services__icon-Virus.png" alt="icon-Virus">
+				<h3>Структуризація корпоративних відносин</h3>
 				<div class="cards-description">Замість просто надавати юридичні послуги, ми закріпимо юриста або
 					цілу
 					команду, які впишуться в повсякденне життя вашої компанії.
 				</div>
 			</div>
 			<div class="services__cards">
-				<div class="cards-header">
-					<img src="../images/services__icon-Hands.png" alt="icon-Bag">
-					<h3>Побудовa договірних відносин</h3>
-				</div>
+				<img src="../images/services__icon-Hands.png" alt="icon-Hands">
+				<h3>Побудовa договірних відносин</h3>
 				<div class="cards-description">Раз на тиждень, чи тиждень на місяць у вас під боком є ваш власний
 					юрист.
 					Будь-хто в компанії може впіймати його біля кавоварки і просто поговорити про поточні справи
@@ -140,22 +171,16 @@
 				</div>
 			</div>
 			<div class="services__cards">
-				<div class="cards-header">
-					<img src="../images/services__icon-Shield.png" alt="icon-Bag">
-					<h3>Захист бізнесу, інтелектуальної власності</h3>
-				</div>
-				<div class="cards-description">А весь інший час він працюватиме над новими різноплановими
-					проектами, тому
-					вже точно не зупиниться в професійному розвитку. Так чи інакше, на вас працюватиме весь Axon
-					Partners
-					замість корпоративного юриста.
+				<img src="../images/services__icon-Shield.png" alt="icon-Shield">
+				<h3>Захист бізнесу, інтелектуальної власності</h3>
+				<div class="cards-description">А весь інший час він працюватиме над новими різноплановими проектами,
+					тому вже точно не зупиниться в професійному розвитку. Так чи інакше, на вас працюватиме весь Axon
+					Partners замість корпоративного юриста.
 				</div>
 			</div>
 			<div class="services__cards">
-				<div class="cards-header">
-					<img src="../images/services__icon-Gavel.png" alt="icon-Bag">
-					<h3>Судове представництво</h3>
-				</div>
+				<img src="../images/services__icon-Gavel.png" alt="icon-Gavel">
+				<h3>Судове представництво</h3>
 				<div class="cards-description">Невелика компанія, середнього розміру, чи вже лідер ринку?
 					Локальний
 					бізнес або транснаціональна компанія? Маєте власний юридичний відділ, чи ні?
@@ -230,16 +255,10 @@
 	</section>
 </main>
 <footer>
-
-	<div class="footer__info">
-
-		<div class="first-info-line">
+	<div class="footer__content">
+		<div class="footer_contacts">
 			<div class="contacts-Address">Одеса, Адміральський пр., 3</div>
 			<div class="footer__send-to-map"><a href="#">Подивитися на мапі</a></div>
-		</div>
-
-		<div class="second-info-line">© 2021 ТОВ Юридична компанія «HLEGALS»</div>
-		<div class="third-info-line">
 			<div class="contacts-icon-Facebook">
 				<div class="contacts-icon-Facebook-hover">
 					<div class="contacts-icon-Facebook-hover">
@@ -261,13 +280,12 @@
 			<a class="contacts-phone-number" href="tel: +38(050)3901591">+38 (050) 390 15 91</a>
 			<a class="contacts-email" href="mailto: contact@hlegals.net">contact@hlegals.net</a>
 		</div>
+		<div class="watermark">© 2021 ТОВ Юридична компанія «HLEGALS»</div>
 	</div>
-
-
-
+	</div>
 </footer>
-<!--<script src="https://code.jquery.com/jquery-3.6.0.js"></script>-->
-<!--<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>-->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="../index.js"></script>
 </body>
 </html>
